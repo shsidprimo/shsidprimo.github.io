@@ -14,7 +14,7 @@ shuoModeButton.addEventListener('click', function() {
 
   // Change the image source based on the state
   if (isShuoMode) {
-    imageElement.src = 'assets/img/team/shuo2.png';
+    imageElement.src = 'gassets/chris.png';
   } else {
     imageElement.src = 'assets/img/shuo.png';
   }
@@ -23,6 +23,6 @@ shuoModeButton.addEventListener('click', function() {
   if (isShuoMode) {
     shuoModeButton.innerHTML = '<i class="bi bi-play-circle"></i><span>To Shuo Mode</span>';
   } else {
-    shuoModeButton.innerHTML = '<i class="bi bi-play-circle"></i><span>To Normal Mode</span>';
+    shuoModeButton.innerHTML = '<i class="bi bi-play-circle"></i><span>To Chris Mode</span>';
   }
 });
